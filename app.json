@@ -21,6 +21,12 @@
       "value":"no",
       "required":false
     },
+"MENUTYPE":
+    {
+      "description":"Enter 1 for small thumbnail menu, Enter 2 for big thumbnail menu, leave blank and they will be displaying randomly big or Small ",
+      "value":"",
+      "required":false
+    },
 "AUDIO_REPLY":
     {
       "description":"Enter yes for your bot to audio reply",

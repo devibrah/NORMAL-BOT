@@ -35,7 +35,7 @@ async (dest, zk, commandeOptions) => {
 
     const stickerMess = new Sticker(gifUrl, {
       pack: packname,
-      author: 'BMW-MD',
+      author: 'BWM-XMD',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",

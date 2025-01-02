@@ -703,7 +703,7 @@ adams({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
 }
 
 });
-
+/*
 
 adams({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
@@ -765,7 +765,7 @@ adams({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, z
   }
 });
 
-
+*/
 
 
 

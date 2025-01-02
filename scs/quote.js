@@ -14,14 +14,14 @@ adams({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) =
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   Bmw-md               ║
+║   Bwm xmd              ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by BMW-MD`);
+Powered by Bwm xmd`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -41,7 +41,7 @@ Powered by BMW-MD`);
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by Bmw-MD`);
+Powered by Bwm xmd`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);

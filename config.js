@@ -25,7 +25,7 @@ module.exports = { session: process.env.SESSION_ID || '',
     DP : process.env.STARTING_BOT_MESSAGE || "yes",
     ANTIDELETE1 : process.env.ANTIDELETE1 || 'yes',
     ANTIDELETE2 : process.env.ANTIDELETE2 || 'yes',
-
+    MENUTYPE : process.env.MENUTYPE || '',
     ANTICALL : process.env.ANTICALL || 'yes',
                   AUTO_REACT : process.env.AUTO_REACT || 'yes',
                   AUTO_REACT_STATUS : process.env.AUTO_REACT_STATUS || 'yes',

