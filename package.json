@@ -1,5 +1,5 @@
 {
-  "name": "BWM-XMD",
+  "name": "Toxic-Ali",
   "version": "2.0.0",
   "description": "",
   "main": "body.js",
@@ -14,9 +14,9 @@
     "bmw",
     "whatsapp",
     "whatsapp-bot",
-    "Ibrahim-Adams"
+    "Toxic-Ali"
   ],
-  "author": "Ibrahim Adams",
+  "author": "Toxic-Ali",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
