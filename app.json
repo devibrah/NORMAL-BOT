@@ -1,5 +1,6 @@
 
 
+
 {
   "name":"BWM-XMD",
   "description":"Best whatsapp bot developed by Ibrahim adams",
@@ -21,10 +22,22 @@
       "value":"no",
       "required":false
     },
-"AUDIO_REPLY":
+"ANTILINK_GROUP":
     {
-      "description":"Enter yes for your bot to audio reply",
+      "description":"Enter yes for your bot to auto delete links and remove link senders",
       "value":"yes",
+      "required":false
+    },
+"MENUTYPE":
+    {
+      "description":"Enter 1 for small thumbnail menu, Enter 2 for big thumbnail menu, leave blank and they will be displaying randomly big or Small ",
+      "value":"",
+      "required":false
+    },
+"AUDIO_CHATBOT":
+    {
+      "description":"Enter yes for your bot to audio chat to messages when offline ",
+      "value":"no",
       "required":false
     },
 "AUTO_SAVE_CONTACTS":
@@ -45,7 +58,7 @@
       "value":"no",
       "required":false
     },
-"AUTO_REPLY":
+"CHATBOT":
     {
       "description":"Enter yes for your bot to auto reply message when offline",
       "value":"no",
@@ -149,8 +162,8 @@
     "value":"",
     "required": false
   },
-  "ANTIDELETE" : {
-    "description": "if you want to enable anti delete message put yes else put no",
+  "ANTIDELETE_MESSAGES" : {
+    "description": "Deleted messages will be sent to your inbox, enter yes to enable else put no",
     "value": "yes",
         "required": false
   }
