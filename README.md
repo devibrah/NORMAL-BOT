@@ -17,6 +17,12 @@
 
 <p align="center">
   Stay tuned in our official WhatsApp channel for the latest updates:  
+
+  
+  
+  
+  
+  
   <a href="https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y">
     <img src="https://img.shields.io/badge/FOLLOW_FOR_UPDATES-red?style=flat-square&logo=whatsapp" 
     alt="Follow for Updates"/>
