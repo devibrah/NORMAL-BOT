@@ -20,7 +20,7 @@
 
   
   <p align="center">
-  <a href="[https://github.com/ibrahimadams254/BWM-XMD-QUANTUM](https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y)">
+  <a href="https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y">
     <img src="https://img.shields.io/badge/TAP_HERE_TO_FOLLOW_OUR_CHANNEL-green?style=for-the-badge&logo=github" 
     alt="New Repository" width="300"/>
   </a>
